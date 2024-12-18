@@ -16,16 +16,16 @@ export default function RootLayout({
       <html lang="en">
         <body>
           <div className='py-3 bg-gray-800 text-white'>
-          <div className="container px-5">
-          <div className='flex justify-end items-center'>
-          <SignedOut>
-            <SignInButton />
-          </SignedOut>
-          <SignedIn>
-            <UserButton />
-          </SignedIn>
-          </div>
-          </div>
+            <div className="container px-5">
+              <div className='flex justify-end items-center'>
+                <SignedOut>
+                  <SignInButton />
+                </SignedOut>
+                <SignedIn>
+                  <UserButton />
+                </SignedIn>
+              </div>
+            </div>
           </div>
           {children}
         </body>
